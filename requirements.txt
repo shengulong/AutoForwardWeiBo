@@ -1,0 +1,6 @@
+Scrapy
+requests
+selenium
+Pillow
+bs4
+MySQL-python

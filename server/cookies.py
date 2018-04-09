@@ -11,7 +11,7 @@ import urllib2
 from bs4 import BeautifulSoup
 import re
 import urllib
-import Image
+# from PIL import Image
 
 """
 输入你的账号和密码，可去淘宝买，一元七个。
