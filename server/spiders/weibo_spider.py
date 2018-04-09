@@ -1,8 +1,8 @@
 # coding=utf-8
-from scrapy.spider import Spider
+from scrapy.spiders import Spider
 from scrapy.http import Request
 from scrapy.selector import Selector
-from weibo.items import InformationItem,TweetsItem
+from server.items import InformationItem,TweetsItem
 import re
 import requests
 from bs4 import BeautifulSoup
