@@ -7,4 +7,9 @@
 - React 用于构建 UI
 - Redux 用于数据流管理
 
+本项目关于新浪微博登录、转发、评论、点赞的分析过程博文：[微博登录、转发、点赞、评论机制分析][0]
 
+
+
+
+[0]: http://www.cnblogs.com/shengulong/p/8794190.html

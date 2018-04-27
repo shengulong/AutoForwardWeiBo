@@ -64,7 +64,8 @@ def getCookies(weibo):
     for elem in weibo:
         account = elem['no']
         password = elem['psw']
-        captcha = get_captchainfo(loginURL)
+        # captcha = get_captchainfo(loginURL)
+        captcha = [1,]
         if captcha[0] is None:
             #不需要验证码时的表单,微博网页版都要验证码，此处可以忽略
             postData = {
